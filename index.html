@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .a {
+        background-image: url(./images/background.jpg);
+        position: relative;
+        height: 130vh;
+        width: 100vw;
+        overflow: hidden;
+        background-repeat: no-repeat;
+      }
+      ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+      }
+      .gallery{
+        color:white;
+      }
+      .gallery:hover{
+        color: green;
+        font-size: 25px;
+      }
+
+      @media screen and (min-width: 1440px) {
+        .p1 {
+          color: white;
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+          font-size: 80px;
+          position: relative;
+          top: 40px;
+          left: 30px;
+        }
+      
+
+      
+        .a2 {
+          color: white;
+          font-size: 20px;
+          position: relative;
+          left: 700px;
+        }
+      
+      
+        .p2 {
+          color: green;
+        }
+        .t2 {
+          color: white;
+        }
+      
+     
+        .p3 {
+          position: relative;
+          top: -42px;
+          left: 200px;
+          color: white;
+        }
+        .t3 {
+          color: green;
+        }
+      
+      
+        .p4 {
+          position: relative;
+          top: -84px;
+          left: 400px;
+        }
+      
+      
+        .p5 {
+          position: relative;
+          top: -126px;
+          left: 600px;
+        }
+      
+      
+        .a3 {
+          border: 3px solid green;
+          height: 1px;
+          width: 150px;
+          background-color: green;
+          border-radius: 20px;
+          position: relative;
+          top: -140px;
+          left: 645px;
+        }
+        .e3 {
+          border: 3px solid white;
+        }
+      
+      
+        .a4 {
+          border: 2px solid green;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: green;
+          position: relative;
+          top: -6px;
+          left: 70px;
+        }
+        .e4 {
+          border: 3px solid white;
+          background-color: white;
+        }
+      
+     
+        .a5 {
+          border: 3px solid white;
+          height: 1px;
+          width: 150px;
+          background-color: white;
+          border-radius: 20px;
+          position: relative;
+          top: -147px;
+          left: 850px;
+        }
+        .e5 {
+          border: 3px solid green;
+          background-color: green;
+        }
+      
+     
+        .a6 {
+          border: 2px solid white;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -6px;
+          left: 70px;
+        }
+        .e6 {
+          border: 3px solid green;
+          background-color: green;
+        }
+      
+      
+        .a7 {
+          border: 3px solid white;
+          height: 1px;
+          width: 150px;
+          background-color: white;
+          border-radius: 20px;
+          position: relative;
+          top: -153px;
+          left: 1050px;
+        }
+      
+    
+        .a8 {
+          border: 2px solid white;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -6px;
+          left: 70px;
+        }
+      
+     
+        .a9 {
+          border: 3px solid white;
+          height: 1px;
+          width: 150px;
+          background-color: white;
+          border-radius: 20px;
+          position: relative;
+          top: -159px;
+          left: 1250px;
+        }
+      
+     
+        .a10 {
+          border: 2px solid white;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -6px;
+          left: 70px;
+        }
+      
+      
+        .a11 {
+          border: 2px solid white;
+          height: 15px;
+          width: 15px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -60px;
+          left: 70px;
+        }
+      
+     
+        .a12 {
+          border: 3px solid white;
+          position: relative;
+          top: -72px;
+          width: 900px;
+          left: 88px;
+        }
+      
+      
+        .a13 {
+          border: 2px solid white;
+          height: 15px;
+          width: 15px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -82px;
+
+          left: 980px;
+        }
+      
+      
+        .a14 {
+          height: 300px;
+          width: 600px;
+          background-color: black;
+          opacity: 0.3;
+          position: relative;
+          left: 100px;
+          top: -20px;
+          display: inline-block;
+        }
+        .h {
+          color: white;
+          position: relative;
+          font-size: 40px;
+          top: -330px;
+          left: 110px;
+        }
+        .p6 {
+          color: white;
+          font-size: 20px;
+          position: relative;
+          top: -360px;
+          left: 120px;
+          display: inline-block;
+        }
+        .p7 {
+          color: white;
+          font-size: 20px;
+
+          position: relative;
+          left: 120px;
+          top: -370px;
+        }
+
+        a {
+          color: green;
+          text-decoration: none;
+        }
+        .img1 {
+          height: 125px;
+          width: 250px;
+          position: relative;
+          left: 720px;
+          top: -650px;
+        }
+        .img2 {
+          height: 150px;
+          width: 250px;
+          position: relative;
+          left: 466px;
+          top: -490px;
+        }
+        .a15 {
+          border: 2px solid white;
+          height: 15px;
+          width: 15px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -425px;
+          left: 70px;
+        }
+        .a16 {
+          border: 3px solid white;
+          position: relative;
+          top: -435px;
+          width: 900px;
+          left: 88px;
+        }
+        .a17 {
+          border: 2px solid white;
+          height: 15px;
+          width: 15px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -448px;
+          left: 990px;
+        }
+        .a18 {
+          position: relative;
+          color: black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+          height: 40px;
+          width: 100px;
+          top: -400px;
+          left: 550px;
+        }
+    }
+      
+      @media screen and (min-width: 1024px) and (max-width: 1439px) {
+        .b {
+          background-image: url(../Assests/Images/background.jpg);
+          position: relative;
+          height: 120vh;
+          width: 100vw;
+          overflow-x: hidden;
+          background-repeat: no-repeat;
+        }
+        ::-webkit-scrollbar {
+          width: 0px;
+          background: transparent;
+        }
+        .q1 {
+          color: white;
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+          font-size: 50px;
+          position: relative;
+          top: 30px;
+          left: 20px;
+        }
+        .b2 {
+          color: white;
+          font-size: 20px;
+          position: relative;
+          left: 500px;
+        }
+        .q2 {
+          color: green;
+        }
+        .q3 {
+          position: relative;
+          top: -42px;
+          left: 130px;
+          color: white;
+        }
+        .q4 {
+          position: relative;
+          top: -84px;
+          left: 260px;
+        }
+        .q5 {
+          position: relative;
+          top: -126px;
+          left: 390px;
+        }
+        .b3 {
+          border: 3px solid green;
+          height: 1px;
+          width: 100px;
+          background-color: green;
+          border-radius: 20px;
+          position: relative;
+          top: -140px;
+          left: 470px;
+        }
+        .b4 {
+          border: 2px solid green;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: green;
+          position: relative;
+          top: -6px;
+          left: 45px;
+        }
+        .b5 {
+          border: 3px solid white;
+          height: 1px;
+          width: 100px;
+          background-color: white;
+          border-radius: 20px;
+          position: relative;
+          top: -147px;
+          left: 608px;
+        }
+        .b6 {
+          border: 2px solid white;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -6px;
+          left: 45px;
+        }
+        .b7 {
+          border: 3px solid white;
+          height: 1px;
+          width: 100px;
+          background-color: white;
+          border-radius: 20px;
+          position: relative;
+          top: -153px;
+          left: 734px;
+        }
+        .b8 {
+          border: 2px solid white;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -6px;
+          left: 45px;
+        }
+        .b9 {
+          border: 3px solid white;
+          height: 1px;
+          width: 100px;
+          background-color: white;
+          border-radius: 20px;
+          position: relative;
+          top: -159px;
+          left: 870px;
+        }
+        .b10 {
+          border: 2px solid white;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -6px;
+          left: 45px;
+        }
+        .b11 {
+          border: 2px solid white;
+          height: 12px;
+          width: 12px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -80px;
+          left: 70px;
+        }
+        .b12 {
+          border: 3px solid white;
+          position: relative;
+          top: -90px;
+          width: 650px;
+          left: 84px;
+        }
+        .b13 {
+          border: 2px solid white;
+          height: 12px;
+          width: 12px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -100px;
+          left: 738px;
+        }
+        .b14 {
+          height: 250px;
+          width: 450px;
+          background-color: black;
+          opacity: 0.3;
+          position: relative;
+          left: 80px;
+          top: -50px;
+          display: inline-block;
+        }
+        .j {
+          color: white;
+          position: relative;
+          font-size: 30px;
+          top: -300px;
+          left: 100px;
+        }
+        .q6 {
+          color: white;
+          font-size: 15px;
+          position: relative;
+          top: -310px;
+          left: 100px;
+          display: inline-block;
+        }
+        a {
+          color: green;
+          text-decoration: none;
+        }
+        .q7 {
+          color: white;
+          font-size: 15px;
+          position: relative;
+          left: 100px;
+          top: -320px;
+        }
+        .image1 {
+          height: 120px;
+          width: 200px;
+          position: relative;
+          left: 545px;
+          top: -535px;
+        }
+        .image2 {
+          height: 120px;
+          width: 200px;
+          position: relative;
+          left: 343px;
+          top: -405px;
+        }
+        .b15 {
+          border: 2px solid white;
+          height: 12px;
+          width: 12px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -350px;
+          left: 70px;
+        }
+        .b16 {
+          border: 3px solid white;
+          position: relative;
+          top: -359px;
+          width: 670px;
+          left: 85px;
+        }
+        .b17 {
+          border: 2px solid white;
+          height: 12px;
+          width: 12px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -370px;
+          left: 750px;
+        }
+        .b18 {
+          position: relative;
+          color: black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+          height: 30px;
+          width: 100px;
+          top: -330px;
+          left: 380px;
+        }
+      }
+      @media screen and (min-width: 768px) and (max-width: 1023px) {
+        .c {
+          background-image: url(../Assests/Images/background.jpg);
+          position: relative;
+          height: 99vh;
+          width: 100vw;
+          overflow-x: hidden;
+          background-repeat: no-repeat;
+        }
+        ::-webkit-scrollbar {
+          width: 0px;
+          background: transparent;
+        }
+        .r1 {
+          color: white;
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+          font-size: 25px;
+          position: relative;
+          top: 30px;
+          left: 20px;
+        }
+        .c2 {
+          color: white;
+          font-size: 18px;
+          position: relative;
+          left: 100px;
+        }
+        .r2 {
+          border: 3px solid green;
+          height: 18px;
+          width: 45px;
+          font-size: 18px;
+          color: green;
+          position: relative;
+          left: 200px;
+          top: 10px;
+        }
+        .r3 {
+          border: 2px solid white;
+          height: 18px;
+          width: 53px;
+          font-size: 18px;
+          color: white;
+          position: relative;
+          top: -30px;
+          left: 300px;
+        }
+        .r4 {
+          border: 2px solid white;
+          height: 18px;
+          width: 49px;
+          font-size: 18px;
+          position: relative;
+          top: -70px;
+          left: 400px;
+        }
+        .r5 {
+          border: 2px solid white;
+          height: 18px;
+          width: 56px;
+          font-size: 18px;
+          position: relative;
+          top: -110px;
+          left: 500px;
+        }
+        .c11 {
+          border: 2px solid white;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -80px;
+          left: 40px;
+        }
+        .c12 {
+          border: 3px solid white;
+          position: relative;
+          top: -89px;
+          width: 475px;
+          left: 52px;
+        }
+        .c13 {
+          border: 2px solid white;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -98px;
+          left: 530px;
+        }
+        .c14 {
+          height: 250px;
+          width: 360px;
+          background-color: black;
+          opacity: 0.3;
+          position: relative;
+          left: 40px;
+          top: -60px;
+          display: inline-block;
+        }
+        .k {
+          color: white;
+          position: relative;
+          font-size: 20px;
+          top: -290px;
+          left: 70px;
+        }
+        .r6 {
+          color: white;
+          font-size: 12px;
+          position: relative;
+          top: -290px;
+          left: 70px;
+          display: inline-block;
+        }
+        a {
+          color: green;
+          text-decoration: none;
+        }
+        .r7 {
+          color: white;
+          font-size: 12px;
+          position: relative;
+          left: 70px;
+          top: -290px;
+        }
+        .pic1 {
+          height: 120px;
+          width: 150px;
+          position: relative;
+          left: 418px;
+          top: -485px;
+        }
+        .pic2 {
+          height: 120px;
+          width: 150px;
+          position: relative;
+          left: 265px;
+          top: -359px;
+        }
+        .c15 {
+          border: 2px solid white;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -335px;
+          left: 40px;
+        }
+        .c16 {
+          border: 3px solid white;
+          position: relative;
+          top: -344px;
+          width: 485px;
+          left: 52px;
+        }
+        .c17 {
+          border: 2px solid white;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -353px;
+          left: 540px;
+        }
+        .c18 {
+          position: relative;
+          color: black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+          height: 30px;
+          width: 100px;
+          top: -310px;
+          left: 310px;
+        }
+      }
+      @media screen and (min-width: 0px) and (max-width: 767px) {
+        .d {
+          background-image: url(../Assests/Images/background.jpg);
+          position: relative;
+          height: 90vh;
+          width: 100vw;
+          overflow-x: hidden;
+          background-repeat: no-repeat;
+        }
+        ::-webkit-scrollbar {
+          width: 0px;
+          background: transparent;
+        }
+        .s1 {
+          color: white;
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+          font-size: 25px;
+          position: relative;
+          top: 20px;
+          left: 20px;
+        }
+        .d2 {
+          color: white;
+          font-size: 15px;
+          position: relative;
+          left: 100px;
+        }
+        .s2 {
+          font-size: 15px;
+          color: green;
+          position: relative;
+          left: 150px;
+          top: -10px;
+        }
+        .s3 {
+          color: white;
+          position: relative;
+          top: -15px;
+          left: 150px;
+        }
+        .s4 {
+          position: relative;
+          top: -20px;
+          left: 150px;
+        }
+        .s5 {
+          position: relative;
+          top: -25px;
+          left: 150px;
+        }
+        .d11 {
+          border: 2px solid white;
+          height: 5px;
+          width: 5px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -23px;
+          left: 10px;
+        }
+        .d12 {
+          border: 2px solid white;
+          position: relative;
+          top: -29px;
+          width: 325px;
+          left: 16px;
+        }
+        .d13 {
+          border: 2px solid white;
+          height: 5px;
+          width: 5px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -35px;
+          left: 340px;
+        }
+        .d14 {
+          height: 160px;
+          width: 310px;
+          background-color: black;
+          opacity: 0.4;
+          position: relative;
+          left: 25px;
+          top: -10px;
+          display: inline-block;
+        }
+        .l {
+          color: white;
+          position: relative;
+          font-size: 18px;
+          top: -160px;
+          left: 45px;
+        }
+        .s6 {
+          color: white;
+          font-size: 10px;
+          position: relative;
+          top: -160px;
+          left: 45px;
+        }
+        a {
+          color: green;
+          text-decoration: none;
+        }
+        .s7 {
+          color: white;
+          font-size: 10px;
+          position: relative;
+          left: 45px;
+          top: -160px;
+        }
+        .picture1 {
+          height: 90px;
+          width: 150px;
+          position: relative;
+          left: 28px;
+          top: -135px;
+        }
+        .picture2 {
+          height: 90px;
+          width: 150px;
+          position: relative;
+          left: 30px;
+          top: -135px;
+        }
+        .d15 {
+          border: 2px solid white;
+          height: 5px;
+          width: 5px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -115px;
+          left: 10px;
+        }
+        .d16 {
+          border: 2px solid white;
+          position: relative;
+          top: -121px;
+          width: 325px;
+          left: 16px;
+        }
+        .d17 {
+          border: 2px solid white;
+          height: 5px;
+          width: 5px;
+          border-radius: 50%;
+          background-color: white;
+          position: relative;
+          top: -127px;
+          left: 340px;
+        }
+        .d18 {
+          position: relative;
+          color: black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+          height: 30px;
+          width: 100px;
+          top: -100px;
+          left: 110px;
+        }
+      }
+    
+    </style>
+  </head>
+  <body>
+    <div class="a b c d">
+      <div class="p1 q1 r1 s1">Astro Motion</div>
+      <div class="a2 b2 c2 d2">
+        <p class="p2 q2 r2 s2">Home</p>
+        <p class="p3 q3 r3 s3"><a class="gallery" href="./gallery.html">Gallery</a></p>
+        <p class="p4 q4 r4 s4">About</p>
+        <p class="p5 q5 r5 s5">Contact</p>
+      </div>
+      <div class="a3 b3 c3 d3"><div class="a4 b4 c4 d4"></div></div>
+      <div class="a5 b5 c5 d5"><div class="a6 b6 c6 d6"></div></div>
+      <div class="a7 b7 c7 d7"><div class="a8 b8 c8 d8"></div></div>
+      <div class="a9 b9 c9 d9"><div class="a10 b10 c10 d10"></div></div>
+      <div class="a11 b11 c11 d11"></div>
+      <div class="a12 b12 c12 d12"></div>
+      <div class="a13 b13 c13 d13"></div>
+      <div class="a14 b14 c14 d14"></div>
+     <h2 class="h j k l">Welcome to Astro Motion</h2>
+     <p class="p6 q6 r6 s6">The HTML template has a motion video background loop which is<br> provided by <a href="">Get Free Picture.</a>This is one-page responsive layout for<br> your websites.Feel free to use this for a commercial purpose.</p>
+      <p class="p7 q7 r7 s7">You are not permitted to redistribute this template on your Free CSS<br> collection websites.please <a href="">Contact us</a> for more information.</p>
+      <img class="img1 image1 pic1 picture1" src="./images/home-img-1.jpg"/>
+      <img class="img2 image2 pic2 picture2" src="./images/home-img-2.jpg"/>
+      <div class="a15 b15 c15 d15"></div>
+      <div class="a16 b16 c16 d16"></div>
+      <div class="a17 b17 c17 d17"></div>
+      <div class="a18 b18 c18 d18">View Gallery</div>
+    </div>
+   
+  </body>
+</html>
